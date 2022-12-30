@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:id="@+id/linearlayout1"
+        >
+
+        <io.github.florent37.shapeofview.shapes.CircleView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:elevation="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            >
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/team"
+
+                />
+        </io.github.florent37.shapeofview.shapes.CircleView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/tv4"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout></LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

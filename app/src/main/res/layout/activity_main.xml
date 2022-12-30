@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/linear"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <io.github.florent37.shapeofview.shapes.CircleView
+            android:id="@+id/circle"
+            android:layout_width="45dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:elevation="4dp"
+            >
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/img"
+                />
+
+        </io.github.florent37.shapeofview.shapes.CircleView>
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:hint="Search"
+            android:gravity="center"
+            android:background="@drawable/change"
+            android:id="@+id/search"
+            android:layout_marginStart="17dp"
+
+
+            />
+
+        <io.github.florent37.shapeofview.shapes.CircleView
+            android:id="@+id/circle2"
+            android:layout_width="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="17dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/img_1"
+                />
+
+        </io.github.florent37.shapeofview.shapes.CircleView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Sports"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text=".5"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#A89C9C"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_2"
+            android:layout_marginLeft="160dp"
+
+            />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/rcvsport"
+        android:layout_marginTop="10dp"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR Teams"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text=".18"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#A89C9C"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_2"
+            android:layout_marginLeft="160dp"
+
+
+            />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/rcvteam"
+        android:layout_marginTop="10dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="YOUR Players"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text=".7"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#A89C9C"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_2"
+            android:layout_marginLeft="160dp"
+
+
+            />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/rcvplayer"
+        android:layout_marginTop="10dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>
